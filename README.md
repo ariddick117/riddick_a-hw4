@@ -1,22 +1,25 @@
-![TRAA Logo](images/traa_logo-MASTER.png)
-Format: ![Alt Text](url)
+![Game of Thrones](images/stark.jpg)
 
-# This is an In-Class Example of What Trevor Wants README Files to Look Like
+# Game of Thrones Banner Build
 
-This is where you put a small description of what the project is.
+Use the in-class build as your starting point, and finish developing the application to
+the specs provided. Use modern web development best practices (Terminal, Git /
+Github, JavaScript) to create an up-and-running app with custom video controls
+and lightbox functionality.
 
 ## Description
 
-Explain brand history and a description of the project, very similar to above
+Add the final house sigils and video to your app; update the JS as required. Each sigil image should trigger a side-scrolling animation. When the animation is complete, the lightbox should open, containing the House video including custom controls. The lightbox
+should close when the video reaches its end. Show the related Great House information on the page, using an array to hold that data
+and retrieving it when the banner animation is done. The heading should update as well, and display the name of the current House.
 
 ## Getting Started
 
 ### Dependencies
 
-* Describe any prerequisites, libraries, OS version, etc., needed before installing program.
-* ex. Windows 10, CSS3, HTML5
-* Be sure to prefix any bleeding-edge rules, tags, etc. (see [caniuse](https://caniuse.com/) for reference)
-* Also using lastest ES6/next, you should probably think about including [Babel](https://babeljs.io/) for transpilation (or an NPM Script)
+* HTML5
+* CSS3
+* Javascript
 
 ### Installing
 
@@ -31,8 +34,7 @@ Contributors names and contact info
 
 ## License
 
-This project is licensed under the [NAME HERE] License - see the LICENSE.md file for details
-* MIT is usually fine (research what this means)
+* MIT
 
 ## Acknowledgments
 
@@ -40,3 +42,4 @@ Inspiration, code snippets, etc.
 * [awesome-readme](https://github.com/matiassingers/awesome-readme)
 * [PurpleBooth](https://gist.github.com/PurpleBooth/109311bb0361f32d87a2)
 * [README Formatting](https://guides.github.com/features/mastering-markdown/)
+* Trevor Van Rys
