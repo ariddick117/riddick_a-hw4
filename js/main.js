@@ -52,20 +52,20 @@
 	   // pause video on a click
 	   function pauseVideo() {
 	   	houseVideo.pause();
-	   	console.log("STOP! (in the name of love)");
+	   	//console.log("STOP! (in the name of love)");
 	   }
 
 	   // custom video controls (play, volume, time counter, progress bar scrubber etc.)
 	   function playVideo() {
 	   	houseVideo.play();
 
-	   	console.log("Play ball!");
+	   	//console.log("Play ball!");
 	   }
 
 	   function rewindVideo() {
 	   	houseVideo.currentTime = 0;
 
-	   	console.log("Restart?");
+	   	//console.log("Restart?");
 	   }
 
 	   
@@ -133,7 +133,10 @@
 	}
 
 	sigils.forEach(sigil => sigil.addEventListener("click", popLightBox));
-	// sigils.forEach(sigil => sigil.addEventListener("click", animateBanners));
+
+		// callback(closeLightBox);
+		// ;
+	sigils.forEach(sigil => sigil.addEventListener("click", animateBanners));
 
 
 	closeButton.addEventListener("click", closeLightBox);
