@@ -34,8 +34,20 @@
 	   ["greyjoy", `House Greyjoy of Pyke is one of the Great Houses of Westeros. It rules over the Iron Islands, a harsh and bleak collection of islands off the west coast of Westeros, from the castle at Pyke. The head of the house is the Lord Reaper of Pyke. House Greyjoy's sigil is traditionally a golden kraken on a black field. Their house words are "We Do Not Sow," although the phrase "What Is Dead May Never Die" is also closely associated with House Greyjoy and their bannermen, as they are associated with the faith of the Drowned God.`],
 
 // houseData[5][0] is "arryn", houseData[5][1]
-	   ["arryn", `House Arryn of the Eyrie is one of the Great Houses of Westeros. It has ruled over the Vale of Arryn for millennia, originally as the Kings of Mountain and Vale and more recently as Lords Paramount of the Vale and Wardens of the East under the Targaryen kings and Baratheon-Lannister kings. The nominal head of House Arryn is Robin Arryn, the Lord of the Eyrie, with his stepfather Petyr Baelish acting as Lord Protector until he reaches the age of majority. `]
+	   ["arryn", `House Arryn of the Eyrie is one of the Great Houses of Westeros. It has ruled over the Vale of Arryn for millennia, originally as the Kings of Mountain and Vale and more recently as Lords Paramount of the Vale and Wardens of the East under the Targaryen kings and Baratheon-Lannister kings. The nominal head of House Arryn is Robin Arryn, the Lord of the Eyrie, with his stepfather Petyr Baelish acting as Lord Protector until he reaches the age of majority. `],
+
+// houseData[6][0] is "targaryen", houseData[6][1]
+	   ["targaryen", `House info here. targaryen `],
+
+// houseData[7][0] is "frey", houseData[7][1]
+	   ["frey", `House info here. frey `],
+
+// houseData[8][0] is "tyrell", houseData[8][1]
+	   ["tyrell", `House info here. tyrell `],
 	   ];
+
+
+// lightbox controls for video
 
 	   // pause video on a click
 	   function pauseVideo() {
@@ -43,7 +55,7 @@
 	   	console.log("STOP! (in the name of love)");
 	   }
 
-	   // write the other functions for custom video controls (play, volume, time counter, progress bar scrubber etc.)
+	   // custom video controls (play, volume, time counter, progress bar scrubber etc.)
 	   function playVideo() {
 	   	houseVideo.play();
 
@@ -57,7 +69,6 @@
 	   }
 
 	   
-
 	function popLightBox() {
 		// make the lightbox show up
 		lightBox.classList.add('show-lightbox');
@@ -95,6 +106,9 @@
 
 	}
 
+// video lightbox end
+
+// banner animation
 	function animateBanners() {
 		// we need an offset that we can multiply by 
 		// to animate our banners to the left and make the active one show up
